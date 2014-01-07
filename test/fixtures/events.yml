@@ -3,7 +3,9 @@
 one:
   description: MyString
   user_id: 1
+  event_date: 1979-10-15
 
 two:
   description: MyString
   user_id: 1
+  event_date: 1979-10-14
