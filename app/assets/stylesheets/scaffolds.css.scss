@@ -1,13 +1,23 @@
+@font-face {
+  font-family: 'Purisa';
+    src: url('fonts/Purisa.eot'); /* For IE */
+    src: local('Purisa'),
+      url('fonts/Purisa.ttf') format('truetype');
+}
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: Purisa, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
+h1 {
+  font-family: Purisa, arial, helvetica, sans-serif;
+}
+
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: Purisa, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -52,6 +62,7 @@ div {
   padding-bottom: 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+
   h2 {
     text-align: left;
     font-weight: bold;
